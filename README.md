@@ -25,6 +25,7 @@ Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa 
   ```
 
   b. Ejercicio 2: Cree una función anónima que calcule:
+  
   ![image](https://github.com/jeriosv/reto_9/assets/142249529/ffbeacda-77e4-467f-a4fd-d496be0ec089)
   
   ```python
