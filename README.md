@@ -239,3 +239,8 @@ else:
    
 
 ## 6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando.
+
+![image](https://github.com/jeriosv/reto_9/assets/142249529/d63cc1a5-7804-4cdd-b5f3-48c32a0c5887)
+
+www.linkedin.com/in/jaime-eduardo-ríos-villegas-049422297 
+
