@@ -40,7 +40,27 @@ Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa 
   c. Ejercicio 3: Cree una función que reciba dos números y un parametro con el cual se decida si regresa el mayor o el menor, por defecto debe regresar el mayor.
   
   ```python
+  # Definimos la función  
+def mayor_menor(a,b, es_menor):
+    if es_menor:
+        return min(a,b) # Retorna el menor
+    elif a == b:        # caso en el que son iguales
+        print("Los números " + str(a) + " y " + str(b) + " son iguales.")
+    else:
+        return min(a,b) # Retorna el menor
 
+if __name__ == "__main__": 
+        # Ingresa el usuario los números
+    a = float(input("Ingrese el número a: "))
+    b = float(input("Ingrese el número b: "))
+    
+    # Llamar la función para obtener el mayor
+    mayor = mayor_menor(a, b, es_menor=False)
+    print("El número mayor es:" + str(mayor))
+    
+    # Llamar la función para obtener el menor
+    menor = mayor_menor(a, b, es_menor=True)
+    print("El número menor es:", menor)
   ```
 
 
