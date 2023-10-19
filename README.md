@@ -6,7 +6,7 @@ Reto sobre Funciones Recursivas, Funciones sin nombre (anónima) lambdas, Argume
 
 Desarrolle la mayoría de ejercicios en clase. Para cada punto cree un programa individual. Al finalizar suba todo a un repo.
 
-1. De los retos anteriores seleccione 3 funciones y escribalas en forma de lambdas.
+## 1. De los retos anteriores seleccione 3 funciones y escribalas en forma de lambdas.
 
   a. Ejercicio 1: Calcular la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 
 
-2. De los retos anteriores seleccione 3 funciones y escribalas con argumentos no definidos (*args).
+## 2. De los retos anteriores seleccione 3 funciones y escribalas con argumentos no definidos (*args).
 
   a. Ejercicio 1. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
   
@@ -148,7 +148,7 @@ if __name__ == '__main__':
   ```
 
 
-3. Escriba una función recursiva para calcular la operación de la potencia.
+## 3. Escriba una función recursiva para calcular la operación de la potencia.
 
 
   ```python
@@ -172,7 +172,7 @@ if __name__ == "__main__":
   ```
 
 
-4. Utilice la siguiente plantilla de code para contar el tiempo:
+## 4. Utilice la siguiente plantilla de code para contar el tiempo:
 
   ```python
   import time
@@ -223,6 +223,7 @@ fib_iteracion = fibonacci_iteracion(n)
 end_time_iteracion = time.time()
 timer_iteracion = end_time_iteracion - start_time_iteracion
 print("El tiempo de ejecución de Fibonacci con iteración para n = " + str(n) + " fue de: " + str(timer_iteracion) + " segundos.")
+print("La diferencia de tiempo fue de " + str(abs(timer_recursion-timer_iteracion)) + " segundos que equivale al " +  str(100*abs(timer_recursion-timer_iteracion)/timer_recursion) + " por ciento.")
 
 # Se compara los tiempos para imprimir una respuesta final
 if timer_recursion > timer_iteracion:
@@ -232,9 +233,9 @@ else:
   ```
 
 
-5. Crear cuenta en stackoverflow y adjuntar imagen en el repo.
+## 5. Crear cuenta en stackoverflow y adjuntar imagen en el repo.
    ![image](https://github.com/jeriosv/reto_9/assets/142249529/7b7728f8-b23f-4328-9aa4-b07b2653e6be)
 
    
 
-6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando.
+## 6. Cosas de adultos....ir a linkedin y crear perfil....NO IMPORTA que estén iniciando.
